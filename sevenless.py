@@ -10,6 +10,6 @@ divisor=7
     
 print("Printing out numbers from",start,"to",end, " not divisible by",divisor)
 
-for num in range(start,end):
+for num in range(start,(end+1)):
     if num % 7 != 0:
         print(num)
